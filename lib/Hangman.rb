@@ -52,6 +52,8 @@ class Hangman
   	  	puts "Good bye! \n"
   		exit
   	  else
+        stick_figure = File.open("hangman_#{(@turn - 10).abs}.txt", 'r') { |file| file.read }
+        puts stick_figure
   	    @missed << input unless @missed.include?(input) #don't insert the letter if it's already existed
   	    @turn -= 1
   	  end
