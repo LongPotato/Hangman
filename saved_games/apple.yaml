@@ -1,0 +1,25 @@
+--- !ruby/object:Hangman
+word:
+- B
+- I
+- T
+- T
+- E
+- R
+- L
+- Y
+current_word:
+- B
+- I
+- T
+- T
+- _
+- _
+- _
+- _
+missed:
+- V
+- W
+- C
+turn: 7
+name: apple

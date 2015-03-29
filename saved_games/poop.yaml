@@ -1,0 +1,25 @@
+--- !ruby/object:Hangman
+word:
+- S
+- E
+- M
+- I
+- L
+- U
+- N
+- A
+- R
+current_word:
+- S
+- _
+- _
+- _
+- _
+- _
+- _
+- _
+- _
+missed:
+- W
+turn: 9
+name: poop

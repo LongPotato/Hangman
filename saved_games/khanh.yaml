@@ -1,0 +1,32 @@
+--- !ruby/object:Hangman
+word:
+- K
+- I
+- N
+- E
+- S
+- T
+- H
+- E
+- T
+- I
+- C
+current_word:
+- K
+- _
+- _
+- E
+- _
+- _
+- _
+- E
+- _
+- _
+- C
+missed:
+- B
+- A
+- Q
+- L
+turn: 4
+name: khanh

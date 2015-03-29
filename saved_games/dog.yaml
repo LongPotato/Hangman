@@ -1,0 +1,27 @@
+--- !ruby/object:Hangman
+word:
+- M
+- U
+- T
+- A
+- G
+- E
+- N
+- I
+- C
+current_word:
+- _
+- _
+- _
+- A
+- _
+- E
+- _
+- _
+- C
+missed:
+- F
+- L
+- R
+turn: 5
+name: dog

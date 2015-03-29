@@ -1,0 +1,20 @@
+--- !ruby/object:Hangman
+word:
+- O
+- R
+- W
+- E
+- L
+- L
+current_word:
+- O
+- R
+- W
+- _
+- _
+- _
+missed:
+- I
+- A
+turn: 8
+name: potato
