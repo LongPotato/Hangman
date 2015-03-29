@@ -7,7 +7,7 @@ Greate practice for serialization and working with files in Ruby
 ###Features:
 
 * User can save and load the game from YAML files.
-* Words are ramdonly selected from outside text file.
+* Words are randomly selected from outside text file.
 * Stick figures!
 
 ###Sample output:
