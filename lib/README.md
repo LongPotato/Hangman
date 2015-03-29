@@ -1,6 +1,6 @@
 #Hangman Game
 
-A simple 5 to 12 character command line hangman game.
+A simple 5 to 12 characters command line hangman game.
 
 Greate practice for serialization and working with files in Ruby
 
