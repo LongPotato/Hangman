@@ -8,6 +8,7 @@ Greate practice for serialization and working with files in Ruby
 
 * User can save and load the game from YAML files.
 * Words are ramdonly selected from outside text file.
+* Stick figures!
 
 ###Sample output:
 
@@ -18,33 +19,102 @@ You can save the game anytime by typing 'save'.
 You can quit the game anytime by typing 'quit'.
 -----------------------------------------------
 Please enter your name: potato
-Do you want to load your previous game Potato (y/n)?: y
+Do you want to load your previous game Potato (y/n)?: n
 
-Word: O R W _ _ _
-Misses: I A
-Turns left: 8
+Word: _ _ _ _ _ _ _
+Misses: 
+Turns left: 10
 Guess: r
 
-Word: O R W _ _ _
-Misses: I A
-Turns left: 8
-Guess: l
+Word: _ _ _ _ _ _ R
+Misses: 
+Turns left: 10
+Guess: e
 
-Word: O R W _ L L
-Misses: I A
-Turns left: 8
-Guess: o
+Word: _ _ _ E _ E R
+Misses: 
+Turns left: 10
+Guess: y
 
-Word: O R W _ L L
-Misses: I A
-Turns left: 8
-Guess: x
 
-Word: O R W _ L L
-Misses: I A X
+
+
+
+
+
+_________
+
+Word: _ _ _ E _ E R
+Misses: Y
+Turns left: 9
+Guess: u
+  
+  /
+  |    
+  |
+  |   
+  |    
+  |
+__|______
+
+Word: _ _ _ E _ E R
+Misses: Y U
+Turns left: 8
+Guess: u
+   ______
+  /     |
+  |    
+  |
+  |   
+  |    
+  |
+__|______
+
+Word: _ _ _ E _ E R
+Misses: Y U
 Turns left: 7
+Guess: u
+   ______
+  /     |
+  |    ( )
+  |
+  |   
+  |    
+  |
+__|______
+
+Word: _ _ _ E _ E R
+Misses: Y U
+Turns left: 6
+Guess: d
+   ______
+  /     |
+  |    ( )
+  |     |
+  |   
+  |    
+  |
+__|______
+
+Word: _ _ _ E _ E R
+Misses: Y U D
+Turns left: 5
+Guess: c
+   ______
+  /     |
+  |    ( )
+  |    \|
+  |     
+  |    
+  |
+__|______
+
+Word: _ _ _ E _ E R
+Misses: Y U D C
+Turns left: 4
 Guess: quit
 Good bye! 
+
 
 ```
 
